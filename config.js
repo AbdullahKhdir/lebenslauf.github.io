@@ -20,5 +20,5 @@ module.exports = {
   ],
   email: 'abdullahkhder77@gmail.com',
   phone: '+49-1577 1191 488',
-  address: 'DL, Deutschland, Nürnberg',
+  address: 'DL, Germany, Nuremberg',
 };

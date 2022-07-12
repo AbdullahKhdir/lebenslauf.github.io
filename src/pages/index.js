@@ -22,13 +22,13 @@ const IndexPage = () => (
             <a href={`mailto:${config.email}`}>{config.email}</a>
           </div>
           <p className="lead mb-5">
-              Ich bin Abdullah, Khdir, 25 Jahre alt und komme aus Syrien. Ich bin seit 7 Jahren in Deutschland und arbeite gerade
-              als Full Stack Web Developer bei der Deutschen Telekom Individual Solutions & Products GmbH.
-              In 2021 absolvierte ich eine Ausbildung als Fachinformatiker für Anwendungsentwicklung bei der Deutschen Telekom AG.
-              Während meiner Ausbildung habe ich Erfahrungen in unterschiedlichen Bereichen gesammelt, die in der Telekommunikationswelt wichtig sind und in der IT-Welt als Programmierer benötigt werden.
-              Ich habe auch Erfahrungen in dem Automatisierungsbereich, wo unterschiedliche Netzkomponenten durch Agenten gesteuert und automatisiert werden können, und habe an die Entwicklung vom SNMP-Agent gearbeitet, welches für die Steuerung und Automatisierung von Power-Distribution-Units eingesetzt werden kann.
-              Zusätzlich habe ich mit der Entwicklung von automatisierten System-Tests die Qualität des Projekts geprüft, und sammelte ich Wissen über die Entwicklung von Web-Applikationen mit der Nutzung von umfangreichen Technologien, als auch Erfahrungen für den Entwurf und Entwicklung von Oberflächen (GUI).
-              Aktuell spezielaisiere ich konkret und tief in den unterschiedlichen Technologien und Framework, die sich um die Web-Entwicklung umdrehen.
+            I'm Abdullah, Khdir, 25 years old. I have been in Germany for 7 years and am currently working
+            as a Full Stack Web Developer at Deutsche Telekom Individual Solutions & Products GmbH.
+            In 2021 I completed an apprenticeship as an IT specialist for application development at Deutsche Telekom AG.
+            During my training, I gained experience in different areas that are important in the telecommunications world and are needed in the IT world as a programmer.
+            I also have experience in the field of automation, where different network components can be controlled and automated by agents, and I worked on developing and implementing agents based on different protocols like SNMP, which can be used for control and automation of different hardware like power distribution units.
+            In addition, I checked the quality of the project with the development of automated system tests, and I gained knowledge about the development of web applications using a wide range of technologies, as well as experience in designing and developing interfaces (GUI).
+            I am currently specializing concretely and deeply in the different technologies and frameworks that revolve around web development.
           </p>
           <div className="social-icons">
             {config.socialLinks.map(social => {
@@ -48,55 +48,54 @@ const IndexPage = () => (
         id="experience"
       >
         <div className="w-100">
-          <h2 className="mb-5">Erfahrungen</h2>
+          <h2 className="mb-5">Experiences</h2>
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
               <h3 className="mb-0">Full Stack PHP Web Developer</h3>
               <div className="subheading mb-3">Deutsche Telekom Individual Solutions &amp; Products GmbH</div>
               <p>
-                Durch den Einsatz vom Laravel Framework arbeite ich an den Entwickelung bzw. Implementierung, Anpassung, Data-Model-Entwurf, Testing, und Organisierung von einem Tool,
-                die Aufträge und Verträge globalen und lokalen Kunden archiviert und adressiert.
+                Using the Laravel framework, I'm currntly working on the development, implementation, customization, data model design, testing, and organization of a tool, that
+                archives and addresses the orders and contracts of global and local companies in Germany and around the globe.
               </p>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">Juni 2021 - Präsens</span>
+              <span className="text-primary">June 2021 - Present</span>
             </div>
           </div>
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">Autiomatisierungsbereich</h3>
+              <h3 className="mb-0">Automation</h3>
               <div className="subheading mb-3">Deutsche Telekom Technik GmbH</div>
               <p>
-                Ich habe ein SNMP-Agent der Hilfe von Programmiersprahe Java entwickelt,
-                welcher zur Steuerung von Power-Distribution-Units durch SNMP-Protokoll dient.
-                Ebenso habe ich an unterschiedlichen Automatisierungs-Lösungen gearbeitet,
-                die Netzkomponenten durch den Agent automatisiert werden können.
+                I have developed an SNMP agent using Java programming language,
+                which is used to control power distribution units using the SNMP protocol.
+                I have also worked on different automation solutions,
+                that can be automated by the agent via the network components.
               </p>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">März 2021 - Juni 2021</span>
+              <span className="text-primary">March 2021 - June 2021</span>
             </div>
           </div>
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">Entwicklung Web-Applikationen</h3>
-              <div className="subheading mb-3">Berufliche Entwicklung</div>
+              <h3 className="mb-0">Development of web applications</h3>
+              <div className="subheading mb-3">Professional development</div>
               <p>
-                Durch verschiedene Projekte könnte ich im Bereich Entwicklung von Web-Applikationen mit der Nutzung von MERN-Technologien Kenntnisse aneigenen.
-                Zusätzlich bin ich auch mit separaten Frontends-Applikationen vertraut.
+                Through various projects, I have acquired knowledge in the area of developing web applications using MERN technologies.
+                In addition, I am also familiar with separate frontend applications.
               </p>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">Februar 2021</span>
+              <span className="text-primary">February 2021</span>
             </div>
           </div>
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">Entwicklung von Graphical User Interface</h3>
+              <h3 className="mb-0">Development of Graphical User Interface</h3>
               <div className="subheading mb-3">Deutsche Telekom Technik GmbH</div>
               <p>
-                Ich habe eine Graphical-User-Interface mit der Hilfe von Programmiersprahe Java für ein Power-Distribution-Unit-Device entwickelt, die die Funktionalitäten des Produkts steuert
-                und überwacht.
+                I have developed a graphical user interface with the help of Java programming language for a power distribution unit hardware that controls and monitores the functionalities of the product.
               </p>
             </div>
             <div className="resume-date text-md-right">
@@ -105,15 +104,15 @@ const IndexPage = () => (
           </div>
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">Entwicklung und Betreuung von Datenbank</h3>
+              <h3 className="mb-0">Development and maintenance of databases</h3>
               <div className="subheading mb-3">Deutsche Telekom Technik GmbH</div>
               <p>
-                Ich habe eine Oberfläche für eine Datenbank mit der Nutzung von MS-Access entwickelt und betreut,
-                die sich mit den Tools aller Abteilungen befasst.
+                I developed and maintained an interface for a database using MS Access,
+                which deals with the tools of all departments of the company.
               </p>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">Dezember 2020</span>
+              <span className="text-primary">December 2020</span>
             </div>
           </div>
           </div>
@@ -126,13 +125,13 @@ const IndexPage = () => (
         id="education"
       >
         <div className="w-100">
-          <h2 className="mb-5">BERUFLICHER WERDEGANG</h2>
+          <h2 className="mb-5">Professional Background</h2>
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-                <h3 className="mb-0">Fachinformatiker als Anwendungsentwickler</h3>
-              <div className="subheading mb-3">Ausbildung bei der Deutschen Telekom AG in Nürnberg</div>
-              <div>Umfangreichen Themen in der Telekommunikationswelt, spezifisch in dem Automatisierungsbereich</div>
+                <h3 className="mb-0">IT specialist as application developer</h3>
+              <div className="subheading mb-3">Apprenticeship at Deutsche Telekom AG in Nuremberg</div>
+              <div>Extensive topics in the telecommunications world, specifically in the field of automation</div>
                 <p></p>
             </div>
             <div className="resume-date text-md-right">
@@ -142,24 +141,24 @@ const IndexPage = () => (
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-                <h3 className="mb-0">Sprachliche Kenntnisse</h3>
-              <div className="subheading mb-3">Universität Oldenburg</div>
-              <div>Abschluss Sprachkurs DSH-1 mit Zertifikat</div>
-                <p>Ich verfüge auch über sehr gute Kenntnisse in englische Sprache</p>
+                <h3 className="mb-0">Language Skills</h3>
+              <div className="subheading mb-3">University of Oldenburg</div>
+              <div>Completion of language course DSH-1 with certificate</div>
+                <p>I also have a very good knowledge of English</p>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">März 2017 - Februar 2018</span>
+              <span className="text-primary">March 2017 - February 2018</span>
             </div>
           </div>
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
             <div className="resume-content">
               <h3 className="mb-0">Al Imam Ali Senior High School, Amman</h3>
-              <div className="subheading mb-3">Gymnasium Abitur</div>
+              <div className="subheading mb-3">High school graduation</div>
                 <p></p>
               </div>
               <div className="resume-date text-md-right">
-                <span className="text-primary">September 2013 - Mai 2015</span>
+                <span className="text-primary">September 2013 - May 2015</span>
               </div>
             </div>
           </div>
@@ -173,10 +172,10 @@ const IndexPage = () => (
         id="skills"
       >
         <div className="w-100">
-          <h2 className="mb-5">KENNTNISSE</h2>
+          <h2 className="mb-5">Knowledge</h2>
 
           <div className="subheading mb-3">
-            Programmiersprachen &amp; Tools
+            Programming Languages &amp; Tools
           </div>
           <ul className="list-inline dev-icons">
             <li className="list-inline-item">
@@ -242,13 +241,13 @@ const IndexPage = () => (
         id="interests"
       >
         <div className="w-100">
-          <h2 className="mb-5">INTERESSEN</h2>
+          <h2 className="mb-5">Interests</h2>
           <p>
-              Lernen von den neuen Technologien, die die IT-Welt allen bereichen umdreht.
-              Spezifisch die Programmierungstechnologien, die im Praxis häufig eingestzt sind.
+            Learning from the new technologies that are turning the IT world upside down in all areas.
+            Specifically, the programming technologies that are often used in practice.
           </p>
           <p className="mb-0">
-              Ich mag reisen, und neue Orte, Eigenschaften, Kulturen und Menschen kennenzulernen.
+            I like to travel and get to know new places, features, cultures and people.
           </p>
         </div>
       </section>
