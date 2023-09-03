@@ -22,7 +22,7 @@ const IndexPage = () => (
             <a href={`mailto:${config.email}`}>{config.email}</a>
           </div>
           <p className="lead mb-5">
-            I'm Abdullah, Khdir, 25 years old. I have been in Germany for 7 years and am currently working
+            I'm Abdullah, Khdir, 26 years old. I have been in Germany for 8 years and am currently working
             as a Full Stack Web Developer at Deutsche Telekom Individual Solutions & Products GmbH.
             In 2021 I completed an apprenticeship as an IT specialist for application development at Deutsche Telekom AG.
             During my training, I gained experience in different areas that are important in the telecommunications world and are needed in the IT world as a programmer.
@@ -54,7 +54,7 @@ const IndexPage = () => (
               <h3 className="mb-0">Full Stack PHP Web Developer</h3>
               <div className="subheading mb-3">Deutsche Telekom Individual Solutions &amp; Products GmbH</div>
               <p>
-                Using the Laravel framework, I'm currntly working on the development, implementation, customization, data model design, testing, and organization of a tool, that
+                Using the Laravel framework, I'm currently working on the development, implementation, customization, data model design, testing, and organization of a tool, that
                 archives and addresses the orders and contracts of global and local companies in Germany and around the globe.
               </p>
             </div>
@@ -95,7 +95,7 @@ const IndexPage = () => (
               <h3 className="mb-0">Development of Graphical User Interface</h3>
               <div className="subheading mb-3">Deutsche Telekom Technik GmbH</div>
               <p>
-                I have developed a graphical user interface with the help of Java programming language for a power distribution unit hardware that controls and monitores the functionalities of the product.
+                I have developed a graphical user interface with the help of Java programming language for a power distribution unit hardware that controls and monitors the functionalities of the product.
               </p>
             </div>
             <div className="resume-date text-md-right">
